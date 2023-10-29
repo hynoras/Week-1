@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section{
+    margin: 50px 20px 0 20px;
+    border: 3px solid black;
+}
+
+.main-section h2{
+    font-size: 50px;
+    color: rgb(10, 151, 104);
+    text-align: center;
+}
+
+.main-section h3{
+    font-size: 25px;
+    color: rgb(10, 151, 104);
+}
+
+.border{
+    border-bottom: 1px solid black;
+}
+
+.title {
+    margin: 50px 50px 0 50px;
+}
+
+.title h1{
+    font-size: 50px;
+    color: rgb(10, 151, 104);
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+}
+
+.general-information {
+    display: flex;
+}
+
+.general-information div {
+    padding: 30px 30px 30px 30px;
+}
+
+.experience-section{
+    background-color: rgb(205, 244, 188);
+}
+
+.education-title{
+    padding: 0px 30px 0px 30px;
+}
+
+.education-container{
+    display: flex;
+    padding: 0px 30px 0px 30px;
+}
+
+.university-container h4{
+    width: 140px;
+}
+
+.major-container{
+    padding: 0 0 0 60px;
+}
+
+.border-container{
+    width: 1016px;
+    margin: 0 50px 0 50px;
+}
+
+.working-experiences-container{
+
+}
