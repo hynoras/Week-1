@@ -108,11 +108,39 @@ span:hover {
 	background-color: #009dcb;
 }
 
-.general-section-wrapper {
-	list-style-type: none;
+.general-section {
+	background-color: #fdfdfd;
+	margin: 10px 0 0 0;
+	padding: 8px 10px 8px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	border: #dddddd;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 7px;
 }
 
-.list-style {
-	color: red;
-	
+.general-section h2{
+	border-bottom: 1px solid #e6e6e6;
+    color: #0056e0;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 10px 7px 10px;
+}
+
+.general-section-wrapper{
+	list-style-image: url('/list-style.png');
+}
+
+.list-item {
+	margin: 0 0 5px 0;
+	font-size: 14px;
+}
+
+.link {
+	color: #0088CC;
+}
+
+.link:hover {
+	color: darkblue;
 }
