@@ -1,0 +1,37 @@
+*{
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+.flex-container{
+    display: flex;
+    white-space: nowrap;
+}
+
+.flex-child{
+    background-color: #eeeff2;
+    width: 90px;
+    height: 150px;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 10px;
+}
+
+.flex-child:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.special{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.border{
+    border-left: 10px dotted #D0D0FF;
+}
+
+
+
+
