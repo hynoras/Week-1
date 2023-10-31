@@ -7,14 +7,243 @@
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- CSS File -->
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="/Homework 4/index.css" />
     <title>Youtube Clone with HTML & CSS</title>
   </head>
   <body>
-      <header class="header">.</header>
+      <header class="header">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+          </div>
+          
+          <div class="search center">
+            <form action="">
+              <input type="text" placeholder="Search" />
+              <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+          </div>
+          
+          <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+          </div>
+      </header>
       <main>
-          <div class="side-bar">.</div>
-          <div class="content">.</div>
+          <div class="side-bar">
+            <div class="nav">
+                <a class="nav-link active">
+                   <i class="material-icons">home</i>
+                   <span>Home</span>
+                </a>
+                <a class="nav-link">
+                   <i class="material-icons">local_fire_department</i>
+                   <span>Trending</span>
+                </a>
+                <a class="nav-link">
+                   <i class="material-icons">subscriptions</i>
+                   <span>Subscriptions</span>
+                </a>
+              </div>
+              <hr>
+              <a class="nav-link">
+                <i class="material-icons">library_add_check</i>
+                <span>Library</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">history</i>
+                <span>History</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">play_arrow</i>
+                <span>Your Videos</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">watch_later</i>
+                <span>Watch Later</span>
+             </a>
+             <a class="nav-link">
+                <i class="material-icons">thumb_up</i>
+                <span>Liked Videos</span>
+             </a>
+          </div>
+          <div class="content">
+            <div class="videos">
+                <!-- a video starts -->
+                <div class="video">
+                    <div class="thumbnail">
+                    <img src="https://img.youtube.com/vi/zUwB_imVjmg/maxresdefault.jpg" alt="" />
+                    </div>
+            
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/bpzY-S4DYlbTeOpY5hIA7qz_hcbMkgvLAugtwKBGTTImNnWAGudX0y53bo_fJZ0auypxrWkUiw=s88-c-k-c0x00ffffff-no-rj" alt="" />
+                        </div>
+                        <div class="title">
+                            <h3>
+                                Introverts & Content Creation | Sumudu Siriwardana
+                            </h3>
+                            <a href="">
+                                    Francesco Ciulla
+                            </a>
+                            <span> 2M Views • 3 Months Ago </span>
+                        </div>
+                        </div>
+            
+                </div>
+                    <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/urlj9JtKU64/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTnc2pHAS3_FVNJK1-tdthZQn4vg" alt="" />
+                        </div>
+                
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/cwEjUIRmT8cMg9GYbBKO7unzWmzeMvSAEpzt-dA8MOMHWMAo-uCtepJCSvNfLJkQJqSvoq0cjvo=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Abilities That Were DELETED From League Of Legends (3)
+                                </h3>
+                                <a href="">
+                                    Vars
+                                </a>
+                                <span> 228K Views • 2 Months Ago </span>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/CPvOM6ltyXg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBwIOiapOQa4w9ViPyZUrqg1w9d2g" alt="" />
+                            </div>
+                    
+                            <div class="details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/1hUMm_6lJh-1N1N4QrmLdRhTpfeBN5rtAKnrDM_Jlk__sNCTgu43sXn5uUwvAOAwQEf-e3t1eg=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Phonk House Mix ※ Best Aggressive Drift Phonk ※ Фонк 2023
+                                    </h3>
+                                    <a href="">
+                                        PHONK Club
+                                    </a>
+                                    <span>3,9K Views • 21 hours ago </span>
+                                </div>
+                            </div>
+                    
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/xFTXwNIU514/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDviI_T7PEerAPWpquwS7ZjkUKrzA" alt="" />
+                        </div>
+                    
+                            <div class="details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/eLCADxKBRj3JGsifnxitZwfsbeV3DDlS3r8SzN5QPT2juw0fTV34T09vIZWfEF3D4JmV2z6hZA=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Uncle Roger Found THE MOST IMPRESSIVE FRIED RICE
+                                    </h3>
+                                    <a href="">
+                                        mrnigelng
+                                    </a>
+                                    <span>1,4M Views • 1 day ago</span>
+                                </div>
+                            </div>
+                    
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/SvA_CHm_WsQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9uBhBTTwzh9kybcuKQhevA88lBw" alt="" />
+                            </div>
+                    
+                            <div class="details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/APkrFKZmiULKZxUNQAzL0yvjwT3Lkqk1BsOSKPf7Ulek=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        How Davemon Makes Mid Pyke Viable in Challenger
+                                    </h3>
+                                    <a href="">
+                                        LoL Dobby
+                                    </a>
+                                    <span> 111K Views • 3 days ago </span>
+                                </div>
+                            </div>
+                    
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/15iyVG9dduU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdsFgPIgYoQZjersfs1c8cdbTFLw" alt="" />
+                            </div>
+                    
+                            <div class="details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/APkrFKap0sp-eGxtBj9uurTOblCe2WE_QN2AiqXlce5Aag=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        This NEW Trick To HIDE The Defuser is BIG BRAIN - Rainbow Six Siege
+                                    </h3>
+                                    <a href="">
+                                        Jäger Himself Too
+                                    </a>
+                                    <span> 43K Views • 1 day ago </span>
+                                </div>
+                            </div>
+                    
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/fW69GYmiHBM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhufNlBxJktEuE7EA2quObVyfnZw" alt="" />
+                            </div>
+                    
+                            <div class="details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/mn-Uj1gaG4UfgCS_kboMXIB0S_PbLZ-IPyC8VU_dGC_x_fxVGH6B0QLUFCr2PF3uqVytuiZIiQ=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Showmaker loses his mind over K'Sante
+                                    </h3>
+                                    <a href="">
+                                        The Ram
+                                    </a>
+                                    <span> 1,1M Views • 4 Months Ago </span>
+                                </div>
+                            </div>
+                    
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/YnpB5IwNRK8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAacBqLq2l3b8fHHB66gBFEE2cKtA" alt="" />
+                            </div>
+                    
+                            <div class="details">
+                                <div class="author">
+                                    <img src="https://yt3.ggpht.com/ytc/APkrFKa_op6AZtv1CGJb0vyp1Do8zgS3kJxOVaeZsjH6NA=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                                </div>
+                                <div class="title">
+                                    <h3>
+                                        Chosen's Modded Adventure 02 - FROM LAVA TO ENERGY - TỪ DUNG NHAM THÀNH ĐIỆN
+                                    </h3>
+                                    <a href="">
+                                        ythienTV
+                                    </a>
+                                    <span> 10K Views • 3 Weeks Ago </span>
+                                </div>
+                            </div>
+                    
+                    </div>
+                 <!-- a video Ends -->
+               </div>
+          </div>
       </main>
   <!-- Main Body Ends -->
 </body>
